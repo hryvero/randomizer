@@ -1,0 +1,29 @@
+{
+  "name": "schedule",
+  "version": "1.0.0",
+  "description": "Shcedule for Technical Friday",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "lint": "eslint . --ext .js",
+    "lint:fix": "eslint . --ext .js --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Veronika Hryhoriv",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "node-cron": "^3.0.3",
+    "node-telegram-bot-api": "^0.64.0",
+    "node-xlsx": "^0.23.0",
+    "nodemon": "^3.0.1",
+    "path": "^0.12.7",
+    "xslx": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.54.0"
+  }
+}
